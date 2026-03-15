@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration/secrets
+.env
+
+# FAISS and Metadata (Optional: keep these if you want the pre-built index in the repo)
+# index.faiss
+# metadata.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
